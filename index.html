@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeNest | Enhance your learning</title>
+    <!--
+    ***************************************
+    Icons
+    ***************************************
+    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--
+    ****************************************
+    Styles
+    ****************************************
+    -->
+    <link rel="stylesheet" href="style.css">
+    <!--
+    ****************************************
+    AOS Animation
+    ****************************************
+    -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--
+    ****************************************
+    Header
+    ****************************************
+    -->
+    <header>
+        <nav>
+            <div class="navbar">
+                <a href="#" class="logo">Code<span>Nest</span></a>
+                <div class="nav__actions">
+                    <div class="shopping__cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="cart__count">0</span>
+                    </div>
+                    <button class="toggle__mode">
+                        <i class="fa-solid fa-sun"></i>
+                    </button>
+
+                    <div class="hamburger__menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <ul class="nav__links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--
+    ****************************************
+    Home Section
+    ****************************************
+    -->
+    <section class="section" id="home">
+        <div class="hero__container">
+            <div class="hero__img" data-aos="fade-right">
+                <img src="assets/home-1.png" alt="home image">
+            </div>
+            <div class="hero__content" data-aos="fade-left">
+                <h1>Your Path to Becoming a Developer Starts Here</h1>
+                <p>Join thousands of students learning modern programming languages, building real projects, and landing
+                    their dream jobs.</p>
+
+                <div class="buttons">
+                    <button class="btn btn__primary">Start Now</button>
+                    <button class="btn btn__secondary">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+    ****************************************
+    Courses Section
+    ****************************************
+    -->
+    <section class="section" id="courses">
+        <div class="header__title" data-aos="fade-up" data-aos-duration="500">
+            <h1>Latest Coding Courses</h1>
+            <p>Stay ahead with our newest programming tutorials and hands-on projects.</p>
+        </div>
+        <div class="filter__btns" data-aos="fade-up">
+            <button class="filter__btn active" data-filter="All">All</button>
+            <button class="filter__btn" data-filter="HTML5">HTML5</button>
+            <button class="filter__btn" data-filter="Python">Python</button>
+            <button class="filter__btn" data-filter="Java">Java</button>
+            <button class="filter__btn" data-filter="JavaScript">JavaScript</button>
+            <button class="filter__btn" data-filter="Bootstrap">Bootstrap</button>
+            <button class="filter__btn" data-filter="React">React</button>
+            <button class="filter__btn" data-filter="C++">C++</button>
+        </div>
+
+        <div class="course__container" data-aos="fade-up">
+            <div class="card" data-category="Java">
+                <div class="card__img">
+                    <img src="assets/course-1.jpg" alt="Master Java in No Time">
+                </div>
+
+                <div class="card__info">
+                    <h1>Master Java in No Time</h1>
+                    <p>Build strong OOP foundations and create powerful applications
+                    </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="price">$65.00</div>
+                    <button class="btn btn__primary">Add to Cart</button>
+
+                </div>
+            </div>
+
+            <div class="card" data-category="Python">
+                <div class="card__img">
+                    <img src="assets/course-2.jpg" alt="Python Basics Made Easy">
+                </div>
+
+                <div class="card__info">
+                    <h1>Python Basics Made Easy</h1>
+                    <p>Learn coding from scratch with simple and fun examples
+                    </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="price">$45.00</div>
+                    <button class="btn btn__primary">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card" data-category="Python">
+                <div class="card__img">
+                    <img src="assets/course-3.jpg" alt="Python for Data Science">
+                </div>
+
+                <div class="card__info">
+                    <h1>Python for Data Science</h1>
+                    <p>Analyze data and create insights with Python libraries
+                    </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="price">$110.00</div>
+                    <button class="btn btn__primary">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card" data-category="Python">
+                <div class="card__img">
+                    <img src="assets/course-4.jpg" alt="Python for Web Development">
+                </div>
+
+                <div class="card__info">
+                    <h1>Python for Web Development</h1>
+                    <p>Build modern web apps with Django and Flask
+                    </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="price">$130.00</div>
+                    <button class="btn btn__primary">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card" data-category="HTML5">
+                <div class="card__img">
+                    <img src="assets/course-5.jpg" alt="HTML5 Essentials">
+                </div>
+
+                <div class="card__info">
+                    <h1>HTML5 Essentials</h1>
+                    <p>Learn the building blocks of the web step by step
+                    </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="price">$70.00</div>
+                    <button class="btn btn__primary">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card" data-category="JavaScript">
+                <div class="card__img">
+                    <img src="assets/course-6.jpg" alt="JavaScript from Zero to Hero">
+                </div>
+
+                <div class="card__info">
+                    <h1>JavaScript from Zero to Hero</h1>
+                    <p>Make your websites interactive and dynamic
+                    </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="price">$100.00</div>
+                    <button class="btn btn__primary">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card" data-category="React">
+                <div class="card__img">
+                    <img src="assets/course-7.jpg" alt="React Like a Pro">
+                </div>
+
+                <div class="card__info">
+                    <h1>React Like a Pro</h1>
+                    <p>Create fast, dynamic, and modern UIs with React
+                    </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="price">$65.00</div>
+                    <button class="btn btn__primary">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card" data-category="HTML5">
+                <div class="card__img">
+                    <img src="assets/course-8.jpg" alt="Modern HTML5 in Action">
+                </div>
+
+                <div class="card__info">
+                    <h1>Modern HTML5 in Action</h1>
+                    <p>Build responsive layouts with semantic HTML5 tags
+                    </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="price">$35.00</div>
+                    <button class="btn btn__primary">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card" data-category="Bootstrap">
+                <div class="card__img">
+                    <img src="assets/course-9.jpg" alt="Build Faster with Bootstrap">
+                </div>
+
+                <div class="card__info">
+                    <h1>Build Faster with Bootstrap</h1>
+                    <p>Design beautiful, responsive sites in no time
+                    </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="price">$56.00</div>
+                    <button class="btn btn__primary">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card" data-category="JavaScript">
+                <div class="card__img">
+                    <img src="assets/course-10.jpg" alt="Advanced JavaScript Mastery">
+                </div>
+
+                <div class="card__info">
+                    <h1>Advanced JavaScript Mastery</h1>
+                    <p>Learn ES6+ features and build real-world apps
+                    </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="price">$120.00</div>
+                    <button class="btn btn__primary">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card" data-category="C++">
+                <div class="card__img">
+                    <img src="assets/course-11.jpg" alt="C++ Programming Essentials">
+                </div>
+
+                <div class="card__info">
+                    <h1>C++ Programming Essentials</h1>
+                    <p>Master high-performance coding for apps and games
+                    </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="price">$67.00</div>
+                    <button class="btn btn__primary">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card" data-category="Python">
+                <div class="card__img">
+                    <img src="assets/course-12.jpg" alt="Advanced Python Projects">
+                </div>
+
+                <div class="card__info">
+                    <h1>Advanced Python Projects</h1>
+                    <p>Take your skills further with real-world projects
+                    </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="price">$150</div>
+                    <button class="btn btn__primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+    ****************************************
+    Categories Section
+    ****************************************
+    -->
+    <section class="section" id="categories">
+        <div class="header__title" data-aos="fade-up">
+            <h1>Explore Course Categories</h1>
+            <p>Find tutorials in your favorite programming languages and technologies.</p>
+        </div>
+
+        <div class="category__container" data-aos="fade-up">
+
+            <div class="category__card">
+                <div class="category__icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="category__info">
+                    <h3>Web Development</h3>
+                    <p>Build modern websites and web applications</p>
+                </div>
+                <div class="category__states">
+                    <span>16 Courses</span>
+                    <span>•</span>
+                    <span>65h Content</span>
+                </div>
+                <button class="btn btn__secondary">Explore</button>
+            </div>
+
+            <div class="category__card">
+                <div class="category__icon">
+                    <i class="fa-brands fa-python"></i>
+                </div>
+                <div class="category__info">
+                    <h3>Python</h3>
+                    <p>From basics to advanced data science</p>
+                </div>
+                <div class="category__states">
+                    <span>34 Courses</span>
+                    <span>•</span>
+                    <span>156h Content</span>
+                </div>
+                <button class="btn btn__secondary">Explore</button>
+            </div>
+
+            <div class="category__card">
+                <div class="category__icon">
+                    <i class="fa-brands fa-js-square"></i>
+                </div>
+                <div class="category__info">
+                    <h3>JavaScript</h3>
+                    <p>Make websites interactive and dynamic</p>
+                </div>
+                <div class="category__states">
+                    <span>10 Courses</span>
+                    <span>•</span>
+                    <span>12h Content</span>
+                </div>
+                <button class="btn btn__secondary">Explore</button>
+            </div>
+
+            <div class="category__card">
+                <div class="category__icon">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                </div>
+                <div class="category__info">
+                    <h3>Mobile Development</h3>
+                    <p>Create apps for iOS and Android</p>
+                </div>
+                <div class="category__states">
+                    <span>12 Courses</span>
+                    <span>•</span>
+                    <span>34h Content</span>
+                </div>
+                <button class="btn btn__secondary">Explore</button>
+            </div>
+
+            <div class="category__card">
+                <div class="category__icon">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <div class="category__info">
+                    <h3>Data Science</h3>
+                    <p>Analyze data and build ML models</p>
+                </div>
+                <div class="category__states">
+                    <span>44 Courses</span>
+                    <span>•</span>
+                    <span>167h Content</span>
+                </div>
+                <button class="btn btn__secondary">Explore</button>
+            </div>
+
+            <div class="category__card">
+                <div class="category__icon">
+                    <i class="fa-solid fa-gamepad"></i>
+                </div>
+                <div class="category__info">
+                    <h3>Game Development</h3>
+                    <p>Design and code your own games</p>
+                </div>
+                <div class="category__states">
+                    <span>24 Courses</span>
+                    <span>•</span>
+                    <span>120h Content</span>
+                </div>
+                <button class="btn btn__secondary">Explore</button>
+            </div>
+        </div>
+    </section>
+    <!--
+    ****************************************
+    Pricing Section
+    ****************************************
+    -->
+    <section class="section" id="pricing">
+        <div class="header__title" data-aos="fade-up">
+            <h1>Upgrade Your Learning</h1>
+            <p>Get unlimited access to all coding courses and exclusive tutorials with our subscription plans.</p>
+        </div>
+
+        <div class="subscription__container" data-aos="fade-up">
+            <div class="subscription__card">
+                <div class="plan__header">
+                    <h1>Starter</h1>
+
+                    <div class="price__tag">
+                        <span class="currency">$</span>
+                        <span class="amount">19</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <p>Perfect for beginners</p>
+                </div>
+
+                <div class="plan__features">
+                    <div class="feature">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Access to 5 basic courses</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Community support</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Certificate of completion</span>
+                    </div>
+                    <div class="feature disabled">
+                        <i class="fa-solid fa-xmark"></i>
+                        <del>Premium projects</d>
+                    </div>
+                    <div class="feature disabled">
+                        <i class="fa-solid fa-xmark"></i>
+                        <del>1-on-1 mentoring</del>
+                    </div>
+                </div>
+                <button class="btn btn__primary">Get started</button>
+            </div>
+
+
+            <div class="subscription__card popular">
+                <div class="plan__header">
+                    <h1>Developer</h1>
+
+                    <div class="price__tag">
+                        <span class="currency">$</span>
+                        <span class="amount">49</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <p>Best value for serious learners</p>
+                </div>
+
+                <div class="plan__features">
+                    <div class="feature">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Unlimited course access</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Priority support</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Professional certificates</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Real-world projects</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Monthly mentoring sessions</span>
+                    </div>
+                </div>
+                <button class="btn btn__primary">Get started</button>
+            </div>
+
+            <div class="subscription__card">
+                <div class="plan__header">
+                    <h1>Pro</h1>
+
+                    <div class="price__tag">
+                        <span class="currency">$</span>
+                        <span class="amount">99</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <p>For career advancement</p>
+                </div>
+
+                <div class="plan__features">
+                    <div class="feature">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Everything in Developer</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Weekly 1-on-1 mentoring</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Career coaching</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Project reviews</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Job placement assistance</span>
+                    </div>
+                </div>
+                <button class="btn btn__primary">Get started</button>
+            </div>
+        </div>
+    </section>
+    <!--
+    ****************************************
+    Review Section
+    ****************************************
+    -->
+    <section class="section" id="reviews">
+        <div class="header__title" data-aos="fade-up">
+            <h1>Meet Our Students</h1>
+            <p>From beginners to professionals, our students are turning knowledge into success stories.</p>
+        </div>
+
+        <div class="review__container" data-aos="fade-up">
+            <div class="review__card">
+                <div class="review__info">
+                    <h3>Sarah M., Beginner Web Developer</h3>
+                    <p>“The tutorials are clear and easy to follow. I built my first website in just two weeks thanks to
+                        these courses!”
+                    </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review__card">
+                <div class="review__info">
+                    <h3>Daniel K., Frontend Enthusiast</h3>
+                    <p>“I love the project-based learning approach. It helped me understand JavaScript deeply and apply
+                        it in real-world tasks.”
+
+                    </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review__card">
+                <div class="review__info">
+                    <h3>Lina R., Computer Science Student</h3>
+                    <p>“Subscribing was the best decision! The structured lessons and supportive community kept me
+                        motivated to keep coding.”
+
+                    </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review__card">
+                <div class="review__info">
+                    <h3>Alex T., Aspiring Software Engineer</h3>
+                    <p>“The courses are beginner-friendly yet professional. I finally feel confident applying for junior
+                        developer jobs.“
+
+                    </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--
+    ****************************************
+    About Section
+    ****************************************
+    -->
+    <section class="section" id="about">
+        <div class="header__title" data-aos="fade-up">
+            <h1>Why Learn With Us?</h1>
+            <p>We provide practical coding lessons, real projects, and expert support to help you grow as a developer.
+            </p>
+        </div>
+
+        <div class="about__container" data-aos="fade-up">
+            <div class="about__card">
+                <div class="about__img">
+                    <img src="assets/about-1.png" alt="about">
+                </div>
+
+                <div class="about__info">
+                    <h1>Build Real Projects</h1>
+                    <p>Learn how to turn code into real applications and create interactive web experiences.</p>
+                </div>
+            </div>
+
+            <div class="about__card">
+                <div class="about__img">
+                    <img src="assets/about-2.png" alt="about">
+                </div>
+
+                <div class="about__info">
+                    <h1>Learn at Your Own Pace</h1>
+                    <p>Flexible lessons designed to fit your schedule—study coding anytime, anywhere.</p>
+                </div>
+            </div>
+
+            <div class="about__card">
+                <div class="about__img">
+                    <img src="assets/about-3.png" alt="about">
+                </div>
+
+                <div class="about__info">
+                    <h1>Guided Learning</h1>
+                    <p>Get step-by-step explanations and learn from expert instructors while practicing code.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--
+    ****************************************
+   Footer Section
+    ****************************************
+    -->
+    <footer>
+        <div class="footer__container">
+            <div class="footer__section">
+                <div class="footer__logo">
+                    <div class="logo">Code<span>Nest</span></div>
+                </div>
+                <p class="footer__description">
+                    Your path to becoming a developer starts here. Join thousands of students learning modern
+                    programming
+                    languages.
+                </p>
+
+                <div class="social__links">
+                    <a href="#" class="social__link">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social__link">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="#" class="social__link">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__section">
+                <h3 class="footer__title">Quick Links</h3>
+                <ul class="footer__links">
+                    <li><a href="#home"><i class="fas fa-chevron-right"></i>Home</a></li>
+                    <li><a href="#courses"><i class="fas fa-chevron-right"></i>Courses</a></li>
+                    <li><a href="#categories"><i class="fas fa-chevron-right"></i>Categories</a></li>
+                    <li><a href="#pricing"><i class="fas fa-chevron-right"></i>Pricing</a></li>
+                    <li><a href="#reviews"><i class="fas fa-chevron-right"></i>Reviews</a></li>
+                    <li><a href="#about"><i class="fas fa-chevron-right"></i>About</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__section">
+                <h3 class="footer__title">Categories</h3>
+                <ul class="footer__links">
+                    <li><a href="#"><i class="fas fa-code"></i> Web Development</a></li>
+                    <li><a href="#"><i class="fab fa-python"></i> Python</a></li>
+                    <li><a href="#"><i class="fab fa-js-square"></i> JavaScript</a></li>
+                    <li><a href="#"><i class="fas fa-mobile"></i> Mobile Dev</a></li>
+                    <li><a href="#"><i class="fas fa-chart-line"></i> Data Science</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__section">
+                <h3 class="footer__title">Newsletter</h3>
+                <p class="footer__newsletter">
+                    Subscribe to get updates on new courses and offers!
+                </p>
+
+                <div class="newsletter__form">
+                    <input type="email" placeholder="Please enter your email...">
+                    <button class="btn btn__secondary">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+                <div class="footer__content">
+                    <div class="footer__item">
+                        <i class="fas fa-envelope"></i>
+                        <span>hello@codenest.com</span>
+                    </div>
+
+                    <div class="footer__item">
+                        <i class="fas fa-phone"></i>
+                        <span>+1 234 45678</span>
+                    </div>
+
+                    <div class="footer__item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Iran, Mashhad</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>Copyright © 2025 Web Design Zahra Babamohammadi. All rights reserved.<i class="fas fa-heart"></i> for
+                    developers</p>
+            </div>
+        </div>
+
+
+    </footer>
+    <!--
+    ****************************************
+    AOS Animation
+    ****************************************
+    -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.waves.min.js"></script>
+    <!--
+    ****************************************
+    Js 
+    ****************************************
+    -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
