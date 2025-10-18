@@ -950,7 +950,7 @@ Responsive For Desktop
     }
 
     .nav__links {
-        gap: 1rem;
+        gap: 2rem;
         flex-direction: row;
         padding: 0;
         top: 35%;
