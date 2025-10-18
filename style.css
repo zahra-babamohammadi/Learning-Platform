@@ -952,9 +952,8 @@ Responsive For Desktop
     .nav__links {
         gap: 1rem;
         flex-direction: row;
-        gap: 2rem;
         padding: 0;
-        top: 0;
+        top: 35%;
         justify-content: center;
         transform: translateX(0);
         background-color: transparent;
